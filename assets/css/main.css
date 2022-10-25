@@ -150,6 +150,11 @@ input, select, textarea {
 			margin: 1em 0 0 0;
 		}
 
+		header > h3 + p {
+			line-height: 1.25;
+			color: #666;
+		}
+
 	footer {
 		margin: 2em 0 0 0;
 	}
