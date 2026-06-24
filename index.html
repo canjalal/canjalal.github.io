@@ -1,188 +1,373 @@
 <!DOCTYPE HTML>
-<!--
-	Prologue by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Vincent Shuali's Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
+<html lang="en">
+<head>
+	<title>Vincent Shuali — Full-Stack Software Engineer</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="description" content="Vincent Shuali is a full-stack software engineer with 3+ years of production experience building at scale with React, TypeScript, Next.js, and Ruby on Rails." />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garant:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/fontawesome-all.min.css" />
+	<link rel="stylesheet" href="assets/css/main.css" />
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-RCH4YN36FF"></script>
 	<script>
 		window.dataLayer = window.dataLayer || [];
 		function gtag(){dataLayer.push(arguments);}
 		gtag('js', new Date());
-
 		gtag('config', 'G-RCH4YN36FF');
 	</script>
-	<body class="is-preload">
+</head>
+<body>
 
-		<!-- Header -->
-			<div id="header">
+	<!-- Nav -->
+	<header id="nav">
+		<div class="nav-inner">
+			<a href="#hero" class="nav-logo">VS</a>
+			<button class="nav-toggle" aria-label="Toggle navigation menu">
+				<span></span><span></span><span></span>
+			</button>
+			<ul class="nav-links">
+				<li><a href="#experience">Experience</a></li>
+				<li><a href="#skills">Skills</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#contact">Contact</a></li>
+				<li><a href="Vincent_Shuali_Resume_2026.pdf" target="_blank" class="btn-resume">Resume</a></li>
+			</ul>
+		</div>
+	</header>
 
-				<div class="top">
+	<main>
 
-					<!-- Logo -->
-						<div id="logo">
-							<span class="image avatar48"><img src="images/self-banner.jpg" alt="" /></span>
-							<h1 id="title">Vincent Shuali</h1>
-							<p>Full-stack Software Engineer</p>
+		<!-- Hero -->
+		<section id="hero">
+			<div class="container">
+				<div class="hero-inner">
+					<div class="hero-left">
+						<span class="hero-location">San Francisco, CA</span>
+						<h1>Vincent<br><em>Shuali</em></h1>
+						<p class="tagline">Full-stack engineer building systems at scale — and the teams that keep them that way.</p>
+						<div class="hero-actions">
+							<a href="#experience" class="btn-primary">See my work</a>
+							<a href="#contact" class="btn-ghost">Get in touch</a>
 						</div>
-
-					<!-- Nav -->
-						<nav id="nav">
-							<ul>
-								<li><a href="#top" id="top-link"><span class="icon solid fa-home">Intro</span></a></li>
-								<li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-th">Portfolio</span></a></li>
-								<li><a href="#about" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
-								<li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li>
-							</ul>
-						</nav>
-
+						<div class="hero-social">
+							<a href="https://github.com/canjalal" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+							<a href="https://www.linkedin.com/in/vincentshuali" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+							<a href="mailto:vincent.shuali@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+						</div>
+					</div>
+					<div class="hero-right">
+						<dl class="hero-data">
+							<div class="data-row">
+								<dt>Experience</dt>
+								<dd>3+ years production</dd>
+							</div>
+							<div class="data-row">
+								<dt>Scale</dt>
+								<dd>6M+ users reached</dd>
+							</div>
+							<div class="data-row">
+								<dt>Impact</dt>
+								<dd>24% conversion increase</dd>
+							</div>
+							<div class="data-row">
+								<dt>Stack</dt>
+								<dd>TypeScript · React · Rails · Python</dd>
+							</div>
+						</dl>
+						<a href="Vincent_Shuali_Resume_2026.pdf" target="_blank" class="resume-link">
+							<i class="fas fa-arrow-down"></i> Resume
+						</a>
+					</div>
 				</div>
-
-				<div class="bottom">
-
-					<!-- Social Icons -->
-						<ul class="icons">
-							<li><a href="https://github.com/canjalal" class="icon brands fa-github"><span class="label">Github</span></a></li>
-							<li><a href="https://www.linkedin.com/in/vincentshuali" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-							<li><a href="https://angel.co/u/vincent-shuali-1" class="icon brands fa-angellist"><span class="label">AngelList</span></a></li>
-						</ul>
-
-				</div>
-
 			</div>
+		</section>
 
-		<!-- Main -->
-			<div id="main">
+		<!-- Wave divider: a nod to waveform / oscillation -->
+		<div class="wave-divider" aria-hidden="true">
+			<svg viewBox="0 0 1200 40" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M0,20 C150,2 300,38 450,20 C600,2 750,38 900,20 C1050,2 1200,38 1200,20" fill="none" stroke="currentColor" stroke-width="1"/>
+			</svg>
+		</div>
 
-				<!-- Intro -->
-					<section id="top" class="one dark cover">
-						<div class="container">
+		<!-- Experience -->
+		<section id="experience" class="alt-bg">
+			<div class="container">
+				<div class="section-heading">
+					<span class="section-num">01</span>
+					<h2 class="section-title">Experience</h2>
+				</div>
+				<div class="timeline">
 
-							<header>
-								<h2 class="alt">Hi! I'm Vincent Shuali, full-stack software engineer</h2>
-								<p>I specialize in modern responsive web development<br />
-								with an accent on engaging and connecting people</p>
-							</header>
-
-							<footer>
-								<a href="#portfolio" class="button scrolly">Portfolio</a>
-								<a href="Vincent_Shuali_Resume.pdf" class="button scrolly">Resume</a>
-							</footer>
-
+					<article class="timeline-item">
+						<div class="timeline-meta">
+							<span class="timeline-date">Feb 2025 – Present</span>
+							<span class="timeline-badge current">Current</span>
 						</div>
-					</section>
-
-				<!-- Portfolio -->
-					<section id="portfolio" class="two">
-						<div class="container">
-
-							<header>
-								<h2>Portfolio</h2>
-							</header>
-
-							<p>I write projects in a variety of modern web technologies, including JavaScript / TypeScript, Ruby on Rails, React.js, Next.js, Node.js, Express.js, PostgreSQL (SQL), Python, Django, CSS, Sass, and MongoDB (NoSQL).</p>
-
-							<p>I've most recently been a software engineer at <a href="https://commonlit.org">CommonLit</a>, an ed tech company, where I built the full-stack of the featured text collections in their library used by millions of teachers. I was also one of the main contributors to their revamp of the student assessment experience.</p>
-							<p>Here is a selection of some of my recent solo projects</p>
-
-							<div class="row">
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a href="https://get-together-and.herokuapp.com/" class="image fit"><img src="images/get-together.jpeg" alt="" /></a>
-										<header>
-											<h3>Get-Together - (<a href="https://github.com/canjalal/get_together">GitHub</a>)</h3>
-											<p>I built a multi-page form toggled through a switch case statement, that requires users to finish each page's
-												form before continuing to the next page.
-											</p>
-										</header>
-									</article>
+						<div class="timeline-body">
+							<div class="timeline-header">
+								<div>
+									<h3>Lead Software Engineer</h3>
+									<p class="company">Tort Experts</p>
 								</div>
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a href="https://heard-app-b4ceef292b33.herokuapp.com/" class="image fit"><img src="images/heard-app.jpeg" alt="" /></a>
-										<header>
-											<h3>Heard App - (<a href="https://github.com/k3tang/Heard---MERN-2">GitHub</a>)</h3>
-										<p>I anonymized user IDs in each message thread by mapping them to JavaScript key-value pairs, allowing
-											distinguishing between interlocutors without revealing their identities</p>
-										</header>
-									</article>
-								</div>
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a href="https://canjalal.github.io/LimitsAndContinuityRide/" class="image fit"><img src="images/limits-continuity-cropped.jpg" alt="" /></a>
-										<header>
-											<h3>Limits and Continuity Explorer - (<a href="https://github.com/canjalal/LimitsAndContinuityRide">GitHub</a>)</h3>
-											<p>I implemented each segment of function as linked list node to provide a uniform, accessible model to access and
-												display information from each clickable point on the graph</p>
-										</header>
-									</article>
+								<div class="tech-stack">
+									<span>Next.js</span><span>TypeScript</span><span>Python</span><span>FastAPI</span><span>GCP</span><span>Pulumi</span>
 								</div>
 							</div>
-
+							<ul class="impact-list">
+								<li><strong>Directed a 3-engineer team</strong> through a front-end redesign that delivered a <strong>24% increase in conversion rate</strong>.</li>
+								<li>Drove reprioritization of page speed over competing infrastructure work — resulting in a <strong>70% LCP improvement</strong> (8.0s → 2.4s) and <strong>73% reduction in Total Blocking Time</strong>.</li>
+								<li>Led migration of production websites serving <strong>3M annual visitors</strong> from a legacy CDN to Vercel, reducing alert noise by <strong>50–70%</strong>.</li>
+								<li>Maintained a Python FastAPI tool that cut lawsuit lander page creation from 38 min to 6 min — a <strong>6.3× speedup</strong>.</li>
+								<li>Redesigned CI/CD pipeline, cutting deployment times by <strong>70%</strong>; tripled unit and E2E test coverage with Sentry.io monitoring across the full stack.</li>
+								<li>Mentored and managed 2 junior engineers to their most productive sprint cycle in 2 months.</li>
+							</ul>
 						</div>
-					</section>
+					</article>
 
-				<!-- About Me -->
-					<section id="about" class="three">
-						<div class="container">
-
-							<header>
-								<h2>About Me</h2>
-							</header>
-
-							<div class="image featured"><img src="images/self-banner.jpg" alt="" /></div>
-
-							<p>I'm a software engineer focused on web development technologies such as TypeScript / JavaScript, Ruby on Rails, React, Redux, MongoDB, Python, and PostgreSQL. I'm currently working on <a href="https://github.com/sfbrigade/compass">Compass</a>, an SF Civic Tech Project based on Next.js and TypeScript to provide a tool for paraeducators to track the progress of students with disabilities.</p>
-
-							<p>I recently worked on a MERN stack app that facilitates anonymous sharing of emotions and statuses. I've also recently created an interactive JavaScript tutorial that teaches graphs to pre-calculus students using the Chart.js library and a randomly generated functions composed of linked list nodes.</p>
-
-							<p>My primary area of interest is building connections, whether it's between electrical signals and beautiful graphs, or between humans of different backgrounds. Being a former physics professor, my focus is on creating a user experience that is accessible, intuitive, and enjoyable, constructed atop a sophisticated mathematical codebase.</p>
-
-							<p>I thrive well in a team setting where I can bring my scientific expertise and technical communication to the fore, and where I can geek out about my love of foreign languages, vegetarian Indian food, community feelings, improv, biking as a lifestyle, and maps.</p>
-
+					<article class="timeline-item">
+						<div class="timeline-meta">
+							<span class="timeline-date">Jun 2023 – Sep 2024</span>
 						</div>
-					</section>
-
-				<!-- Contact -->
-					<section id="contact" class="four">
-						<div class="container">
-
-							<header>
-								<h2>Contact</h2>
-							</header>
-
-							<p>You can reach me on <a href="https://github.com/canjalal">GitHub</a>, <a href="https://www.linkedin.com/in/vincentshuali">LinkedIn</a>, or <a href="https://angel.co/u/vincent-shuali-1">AngelList</a>. </p>
-
+						<div class="timeline-body">
+							<div class="timeline-header">
+								<div>
+									<h3>Software Engineer</h3>
+									<p class="company">CommonLit</p>
+								</div>
+								<div class="tech-stack">
+									<span>React</span><span>TypeScript</span><span>Ruby on Rails</span><span>TailwindCSS</span><span>AWS</span>
+								</div>
+							</div>
+							<ul class="impact-list">
+								<li>Built backend routing and controllers for featured text collections used by <strong>over 6 million users</strong>, with 100% RSpec/Capybara test coverage, delivered ahead of schedule.</li>
+								<li>Constructed and upgraded <strong>50+ TypeScript StencilJS web components</strong> and React components, prototyped with Storybook and tested with Vitest/Playwright.</li>
+								<li>Fixed <strong>12+ security vulnerabilities</strong> protecting student and teacher PII; ensured SOC2 compliance.</li>
+								<li>Co-led cross-functional (product / engineering / design) drive to standardize pre-release QA procedures and testing accounts.</li>
+								<li><strong>Top contributor</strong> among 10 non-senior engineers in final 6 months, measured by PRs approved and deployed.</li>
+							</ul>
 						</div>
-					</section>
+					</article>
 
+					<article class="timeline-item">
+						<div class="timeline-meta">
+							<span class="timeline-date">Jan – May 2023</span>
+						</div>
+						<div class="timeline-body">
+							<div class="timeline-header">
+								<div>
+									<h3>Software Engineer</h3>
+									<p class="company">Red Jester</p>
+								</div>
+								<div class="tech-stack">
+									<span>Gatsby</span><span>React</span><span>GraphQL</span><span>Python</span><span>AWS Lambda</span>
+								</div>
+							</div>
+							<ul class="impact-list">
+								<li>Built an e-commerce site (Gatsby / React / GraphQL) hosted on AWS (CloudFront, Lambda, S3).</li>
+								<li>Spearheaded Google Calendar API integration to automate customer-requested appointments from Shef.com.</li>
+								<li>Achieved 100% test coverage with Python unittest and pytest; designed CI/CD pipeline with Concourse.</li>
+							</ul>
+						</div>
+					</article>
+
+					<article class="timeline-item">
+						<div class="timeline-meta">
+							<span class="timeline-date">May 2023 – Present</span>
+							<span class="timeline-badge volunteer">Volunteer</span>
+						</div>
+						<div class="timeline-body">
+							<div class="timeline-header">
+								<div>
+									<h3>Full-Stack Developer</h3>
+									<p class="company">SF Civic Tech</p>
+								</div>
+								<div class="tech-stack">
+									<span>Next.js</span><span>React</span><span>Node.js</span><span>Playwright</span><span>Storybook</span>
+								</div>
+							</div>
+							<ul class="impact-list">
+								<li>Currently contributing full-stack to <strong>Support SF Schools</strong>, a platform connecting SF residents to volunteer with local schools — emerged from community research with hundreds of SF residents.</li>
+								<li>Previously contributed to <strong>Compass</strong> (paraeducator progress tracking): authentication, backend data architecture with React Query, and 2FA testing with Playwright.</li>
+								<li>Set up Storybook for frontend component testing on Routed.</li>
+							</ul>
+						</div>
+					</article>
+
+					<article class="timeline-item timeline-item--compact">
+						<div class="timeline-meta">
+							<span class="timeline-date">2020 – 2022</span>
+						</div>
+						<div class="timeline-body">
+							<div class="timeline-header">
+								<div>
+									<h3>Physics Professor</h3>
+									<p class="company">Diablo Valley College</p>
+								</div>
+							</div>
+							<ul class="impact-list">
+								<li>Designed interactive student experiences in Desmos and Geogebra for calculus and physics — rated outstanding by students and faculty.</li>
+								<li>Covered 120% course load in a single semester, stepping in for two faculty leaves of absence.</li>
+							</ul>
+						</div>
+					</article>
+
+				</div>
 			</div>
+		</section>
 
-		<!-- Footer -->
-			<div id="footer">
-
-				<!-- Copyright -->
-					<ul class="copyright">
-						<li>&copy; Vincent Shuali. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
-
+		<!-- Skills -->
+		<section id="skills">
+			<div class="container">
+				<div class="section-heading">
+					<span class="section-num">02</span>
+					<h2 class="section-title">Skills</h2>
+				</div>
+				<div class="skills-grid">
+					<div class="skill-group">
+						<h4>Languages</h4>
+						<div class="skill-list">
+							<span>TypeScript</span><span>JavaScript</span><span>Python</span><span>Ruby</span><span>SQL</span><span>HTML5 / CSS3</span>
+						</div>
+					</div>
+					<div class="skill-group">
+						<h4>Frontend</h4>
+						<div class="skill-list">
+							<span>React</span><span>Next.js</span><span>TailwindCSS</span><span>StencilJS</span><span>Storybook</span><span>GraphQL</span>
+						</div>
+					</div>
+					<div class="skill-group">
+						<h4>Backend</h4>
+						<div class="skill-list">
+							<span>Node.js</span><span>Ruby on Rails</span><span>FastAPI</span><span>RESTful APIs</span><span>Gatsby</span>
+						</div>
+					</div>
+					<div class="skill-group">
+						<h4>Data &amp; Cloud</h4>
+						<div class="skill-list">
+							<span>PostgreSQL</span><span>MongoDB</span><span>AWS</span><span>GCP</span><span>Vercel</span><span>Pulumi</span>
+						</div>
+					</div>
+					<div class="skill-group">
+						<h4>Testing</h4>
+						<div class="skill-list">
+							<span>Vitest / Jest</span><span>Playwright</span><span>RSpec / Capybara</span><span>pytest</span>
+						</div>
+					</div>
+					<div class="skill-group">
+						<h4>Practices</h4>
+						<div class="skill-list">
+							<span>TDD</span><span>Agile / Scrum</span><span>CI/CD</span><span>SOC2 compliance</span><span>Sentry</span>
+						</div>
+					</div>
+				</div>
 			</div>
+		</section>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+		<!-- Projects -->
+		<section id="projects" class="alt-bg">
+			<div class="container">
+				<div class="section-heading">
+					<span class="section-num">03</span>
+					<h2 class="section-title">Projects</h2>
+				</div>
+				<p class="section-sub">A selection of personal and open-source work.</p>
+				<div class="projects-grid">
 
-	</body>
+					<article class="project-card">
+						<div class="project-header">
+							<h3>Compass</h3>
+							<div class="project-links">
+								<a href="https://github.com/sfbrigade/compass" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+							</div>
+						</div>
+						<p>Open-source Next.js app for paraeducators to set goals and track progress for students with disabilities. Contributed authentication, backend data architecture, and Playwright E2E tests.</p>
+						<div class="project-tags">
+							<span>Next.js</span><span>TypeScript</span><span>React Query</span><span>Playwright</span>
+						</div>
+					</article>
+
+					<article class="project-card">
+						<div class="project-header">
+							<h3>Limits &amp; Continuity Explorer</h3>
+							<div class="project-links">
+								<a href="https://canjalal.github.io/LimitsAndContinuityRide/" target="_blank" aria-label="Live demo"><i class="fas fa-external-link-alt"></i></a>
+								<a href="https://github.com/canjalal/LimitsAndContinuityRide" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+							</div>
+						</div>
+						<p>Interactive pre-calculus tutorial using Chart.js and randomly generated piecewise functions implemented as linked list nodes — making the infinite feel approachable, one discontinuity at a time.</p>
+						<div class="project-tags">
+							<span>JavaScript</span><span>Chart.js</span><span>Data Structures</span><span>Ed Tech</span>
+						</div>
+					</article>
+
+					<article class="project-card">
+						<div class="project-header">
+							<h3>Support SF Schools</h3>
+							<div class="project-links">
+								<a href="https://www.supportsfschools.org" target="_blank" aria-label="Live site"><i class="fas fa-external-link-alt"></i></a>
+								<a href="https://github.com/sfbrigade/support-sfusd" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+							</div>
+						</div>
+						<p>SF Civic Tech platform connecting San Francisco residents to volunteer with their local schools — regardless of whether they have children enrolled. Currently contributing as a full-stack developer.</p>
+						<div class="project-tags">
+							<span>Next.js</span><span>TypeScript</span><span>React</span><span>Node.js</span>
+						</div>
+					</article>
+
+				</div>
+			</div>
+		</section>
+
+		<!-- About -->
+		<section id="about">
+			<div class="container">
+				<div class="section-heading">
+					<span class="section-num">04</span>
+					<h2 class="section-title">About</h2>
+				</div>
+				<div class="about-grid">
+					<div class="about-photo">
+						<img src="images/self-banner.jpg" alt="Vincent Shuali" />
+					</div>
+					<div class="about-text">
+						<p>I got here by following curiosity. It started with lasers — measuring molecular signals at the limits of detection — then moved through classrooms, and eventually landed me in production systems reaching millions of people. The through-line is finding elegant solutions to problems that matter to someone.</p>
+						<p>At Tort Experts I led a team that delivered measurable business impact. At CommonLit I helped build tools teachers and students depend on daily. Both felt like the same work: understand a complex system, then make it better for the humans on the other side.</p>
+						<p>I care about code that the next engineer will be glad to inherit, products that work for everyone, and teams where people feel safe enough to say what they don't know. I co-led documentation and QA overhauls at two companies — because good systems need good foundations.</p>
+						<p>Outside of work I'm usually biking around San Francisco, learning a language (fluent in English and Spanish, working on Hebrew), or facilitating community workshops. I'm drawn to work where the product's success is someone's better day.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Contact -->
+		<section id="contact" class="alt-bg">
+			<div class="container contact-inner">
+				<div class="section-heading">
+					<span class="section-num">05</span>
+					<h2 class="section-title">Let's connect</h2>
+				</div>
+				<p>Open to mid-level software engineering roles, especially in ed tech, civic tech, or mission-driven products. Feel free to reach out.</p>
+				<a href="mailto:vincent.shuali@gmail.com" class="btn-primary contact-email">
+					<i class="fas fa-envelope"></i>&nbsp; vincent.shuali@gmail.com
+				</a>
+				<div class="contact-links">
+					<a href="https://github.com/canjalal" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+					<a href="https://www.linkedin.com/in/vincentshuali" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+					<a href="Vincent_Shuali_Resume_2026.pdf" target="_blank"><i class="fas fa-file-pdf"></i> Resume</a>
+				</div>
+			</div>
+		</section>
+
+	</main>
+
+	<footer>
+		<p>&copy; 2026 Vincent Shuali</p>
+	</footer>
+
+	<script src="assets/js/main.js"></script>
+
+</body>
 </html>
